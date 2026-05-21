@@ -1,16 +1,137 @@
-# React + Vite
+# Reelax Figma Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive React JS UI implementation created based on the provided Figma design for the Reelax assignment.
 
-Currently, two official plugins are available:
+The objective of this assignment was to build a clean, component-based, responsive interface while closely matching the layout, spacing, typography, colours, and overall structure from the Figma reference.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vercel Deployment:
 
-## Expanding the ESLint configuration
+https://react-billing-ui.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# GitHub Repository
+
+Repository Link:
+
+https://github.com/vishnu25832/react-billing-ui
+
+---
+
+# Tech Stack
+
+- React JS
+- Vite
+- Tailwind CSS
+- React Icons
+
+---
+
+# Features
+
+- Responsive UI Design
+- Component-Based Architecture
+- Billing Information Form
+- Order Summary Section
+- Coupon Selection UI
+- Wallet Balance Section
+- Mobile Responsive Layout
+- Clean and Structured Code
+
+---
+
+# Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── billing/
+│   │   ├── BillingForm.jsx
+│   │   └── InputField.jsx
+│   │
+│   ├── layout/
+│   │   └── Navbar.jsx
+│   │
+│   └── summary/
+│       └── OrderSummary.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+# Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vishnu25832/react-billing-ui
+```
+
+Move into the project folder:
+
+```bash
+cd reelax-figma-assignment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+# Responsive Design
+
+The application is responsive across:
+
+- Desktop
+- Tablet
+- Mobile Devices
+
+Responsive layouts were implemented using Tailwind CSS utility classes.
+
+---
+
+# Assignment Goals Achieved
+
+- React JS implementation
+- Reusable components
+- Responsive layout
+- Tailwind CSS integration
+- Clean folder structure
+- Close Figma matching UI
+
+---
+
+# Deployment
+
+The project is deployed using:
+
+- Vercel
+
+---
+
+# Author
+
+Vishnu
