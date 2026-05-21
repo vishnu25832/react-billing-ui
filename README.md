@@ -1,4 +1,4 @@
-# Reelax Figma Assignment
+# React Billing User Interface
 
 This project is a responsive React JS UI implementation created based on the provided Figma design for the Reelax assignment.
 
